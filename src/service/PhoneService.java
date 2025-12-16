@@ -8,13 +8,14 @@ public interface PhoneService {
 
 
     String addPhone(Phone phone);
- Phone getPhoneById(int phoneId);
 
-Phone updatePhoneNameById(int phoneId, String newName);
+    Phone getPhoneById(int phoneId);
 
- List<Phone> getAllPhones();
+    Phone updatePhoneNameById(int phoneId, String newName);
 
-List<Phone> getAllPhonesByBrand(String brand);
+    List<Phone> getAllPhones();
+
+    List<Phone> getAllPhonesByBrand(String brand);
 
     void deletePhoneById(int phoneId);
 
