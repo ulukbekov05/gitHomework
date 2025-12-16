@@ -1,6 +1,7 @@
 package database;
 
-import models.Phone;
+import model.Phone;
+
 
 import java.util.ArrayList;
 import java.util.List;
