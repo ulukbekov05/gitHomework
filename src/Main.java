@@ -55,9 +55,9 @@ public class Main {
                             }
                             case "2" -> {
                                 System.out.println("All phones:");
-                                for (Phone p : phoneService.getAllPhones()) {
-                                    System.out.println(p);
-                                }
+                                System.out.println(phoneService.getAllPhones());
+
+
                             }
                             case "3" -> {
                                 System.out.println("Phone ID:");
